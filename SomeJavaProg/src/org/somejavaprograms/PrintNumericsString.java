@@ -18,7 +18,7 @@ public class PrintNumericsString {
 			if (Character.isAlphabetic(ch))
 				alpha_string.append(ch);
 			//adding a comment for git conflict
-			System.out.println("git conflict here");
+			System.out.println("git conflict here...");
 		}
 		
 		System.out.println("Your Numeric string is: " + numeric_string);
