@@ -6,7 +6,7 @@ public class PrintNumericsString {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter your alphanumeric string: ");
+		System.out.println("Enter the alphanumeric string that you wana check: ");
 		String my_string = sc.nextLine();
 		StringBuilder alpha_string = new StringBuilder();
 		StringBuilder numeric_string = new StringBuilder();
