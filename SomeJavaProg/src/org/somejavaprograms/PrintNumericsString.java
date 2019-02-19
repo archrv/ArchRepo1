@@ -17,7 +17,6 @@ public class PrintNumericsString {
 				numeric_string.append(ch);
 			if (Character.isAlphabetic(ch))
 				alpha_string.append(ch);
-				
 		}
 		
 		System.out.println("Your Numeric string is: " + numeric_string);
