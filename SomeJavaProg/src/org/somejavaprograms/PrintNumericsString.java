@@ -17,10 +17,6 @@ public class PrintNumericsString {
 				numeric_string.append(ch);
 			if (Character.isAlphabetic(ch))
 				alpha_string.append(ch);
-			
-			//adding an extra statement for Git conflict
-			if (Character.isLowerCase(ch))
-				System.out.println("LC");
 		}
 		
 		System.out.println("Your Numeric string is: " + numeric_string);
